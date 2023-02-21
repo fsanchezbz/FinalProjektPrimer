@@ -1,0 +1,112 @@
+
+body{
+    background-color: #fff;
+    font-size: 120%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper{
+    background-color: #fff;
+    width: 1024px;
+    margin: 0 auto;
+    border-radius: 20px; 
+    /*-webkit-border-radius: 20px; for web kit based browsers
+    -khtml-border-radius: 20px;  for old konqueror browsers*/
+}
+
+.wrapper header .brand {
+    color: #666;
+    font-family:'Pacifico', Georgia;
+    font-size: 170%;
+    padding: 40px;
+}
+
+.wrapper header .brand span{
+    font-family:'Open Sans',sans-serif;
+    font-size: 40%;
+    padding: 20px;
+}
+
+.wrapper .hero{
+    width: 500px;
+    height: 370px;
+    background: #0a8354; 
+    background-image: url('./img/ducati1998.jpg') ;
+    background-repeat: no-repeat;
+}
+
+.wrapper footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 90%;
+    clear:both;
+    display: block;
+}
+
+.wrapper content{
+    overflow: hidden;
+    display: block;
+    padding: 50px;
+}
+
+.wrapper main {
+    float: left;
+    width: 70%
+}
+
+.wrapper aside{
+    float: right;
+}
+
+.wrapper aside .section{
+    background-color: #e6f7cc;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.wrapper aside .section h3 {
+    background-color: #a895eb;
+    color: #fff;
+    padding: 30px;
+    margin-top: 0;
+}
+
+.wrapper a{
+    color:#333
+
+}
+
+.wrapper a:hover{
+    color:#0062ff;
+}
+
+.wrapper aside ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.wrapper aside a{
+    padding: 10px 0;
+    display: block;
+}
+
+.wrapper article h2{
+    margin-bottom: 0;
+    font-size: 170%;
+    color: #333;
+    padding: 0;
+}
+
+.wrapper article p{
+    margin-top:10px;
+    font: size 100%;
+    color: #333;
+    padding: 0; 
+}
+
+.wrapper article{
+    margin-bottom: 60px;
+    margin-top: 60px;
+
+}
